@@ -4,12 +4,12 @@ Autumn 2026 Applied Bioinformatics course project. We analyse shotgun metagenome
 
 ## Layout
 
-| Folder | Contents | 
-|---|---|---|
-| `notebooks/` | One Jupyter notebook per step, numbered in run order |
-| `scripts/` | Slurm job scripts and Python modules used by the notebooks |
-| `data/` | Links to the raw data in scratch, not included here |
-| `results/` | Tables and figures for our report, not included here |
-| `logs/` | Slurm job logs, not included here |
+Folder Contents:
+
+`notebooks/` | One Jupyter notebook per step, numbered in run order 
+`scripts/` | Slurm job scripts and Python modules used by the notebooks 
+`data/` | Links to the raw data in scratch, not included here 
+`results/` | Tables and figures for our report, not included here 
+`logs/` | Slurm job logs, not included here 
 
 Large files (`.qza`, `.qzv`, FASTQ, BAM) are excluded by `.gitignore`.
