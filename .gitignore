@@ -1,0 +1,20 @@
+# Raw data (links to scratch) and large files 
+data/
+*.qza
+*.qzv
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.k2d
+
+# Python and Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+.DS_Store
