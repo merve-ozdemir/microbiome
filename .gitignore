@@ -1,5 +1,9 @@
-# Raw data (links to scratch) and large files 
-data/
+# Raw data (links to scratch) and large files
+# The sample metadata is kept 
+data/*
+!data/raw/
+data/raw/*
+!data/raw/african_gut_microbiomes_metadata.tsv
 *.qza
 *.qzv
 *.fastq
@@ -10,6 +14,9 @@ data/
 *.sam
 *.k2d
 
+# Final feature tables, taxonomies and Kraken 2 reports are kept (~26 MB in total) for the team
+!results/04_taxonomy/*.qza
+
 # Python and Jupyter clutter
 __pycache__/
 *.pyc
@@ -18,3 +25,4 @@ __pycache__/
 # Editor and OS files
 .vscode/
 .DS_Store
+
