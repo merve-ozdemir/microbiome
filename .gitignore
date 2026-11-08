@@ -16,6 +16,8 @@ data/raw/*
 
 # Final feature tables, taxonomies and Kraken 2 reports are kept (~26 MB in total) for the team
 !results/04_taxonomy/*.qza
+!results/06_beta_diversity/*/qza
+!results/06_beta_diversity/*/qzv
 
 # Python and Jupyter clutter
 __pycache__/
