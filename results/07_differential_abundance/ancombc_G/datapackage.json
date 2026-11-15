@@ -1,0 +1,198 @@
+{
+  "$schema": "https://datapackage.org/profiles/2.0/datapackage.json",
+  "resources": [
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "path": "lfc_slice.csv",
+      "name": "lfc_slice",
+      "type": "table",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "(Intercept)",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationHinterland",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationPeri-rural",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationPeri-urban",
+            "type": "number"
+          },
+          {
+            "name": "age",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "path": "se_slice.csv",
+      "name": "se_slice",
+      "type": "table",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "(Intercept)",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationHinterland",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationPeri-rural",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationPeri-urban",
+            "type": "number"
+          },
+          {
+            "name": "age",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "path": "w_slice.csv",
+      "name": "w_slice",
+      "type": "table",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "(Intercept)",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationHinterland",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationPeri-rural",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationPeri-urban",
+            "type": "number"
+          },
+          {
+            "name": "age",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "path": "p_val_slice.csv",
+      "name": "p_val_slice",
+      "type": "table",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "(Intercept)",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationHinterland",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationPeri-rural",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationPeri-urban",
+            "type": "number"
+          },
+          {
+            "name": "age",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "https://datapackage.org/profiles/2.0/dataresource.json",
+      "path": "q_val_slice.csv",
+      "name": "q_val_slice",
+      "type": "table",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "$schema": "https://datapackage.org/profiles/2.0/tableschema.json",
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "(Intercept)",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationHinterland",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationPeri-rural",
+            "type": "number"
+          },
+          {
+            "name": "urbanizationPeri-urban",
+            "type": "number"
+          },
+          {
+            "name": "age",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "intercept_groups": "urbanization::Urban"
+  }
+}
