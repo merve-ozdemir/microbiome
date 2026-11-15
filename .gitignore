@@ -32,3 +32,4 @@ __pycache__/
 .vscode/
 .DS_Store
 
+results/05_alpha_diversity/
